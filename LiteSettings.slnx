@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="LiteSettings.Tests/LiteSettings.Tests.csproj" />
+  <Project Path="LiteSettings.Xml.Tests/LiteSettings.Xml.Tests.csproj" />
+  <Project Path="LiteSettings.Xml/LiteSettings.Xml.csproj" />
+  <Project Path="LiteSettings/LiteSettings.csproj" />
+</Solution>

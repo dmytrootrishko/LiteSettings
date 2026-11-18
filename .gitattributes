@@ -1,0 +1,4 @@
+* text=auto eol=crlf
+
+# Sample settings files are compared and parsed byte for byte.
+tests/**/Fixtures/*.xml -text

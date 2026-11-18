@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settings Version="1.0.0.0">
+  <Text>a &amp;amp; b &amp;lt;tag attr=&amp;quot;1&amp;quot;&amp;gt; &amp;apos;single&amp;apos; back&amp;sl;slash &amp;amp;amp; &amp;amp;sl; Привіт, світе!</Text>
+  <EmptyText></EmptyText>
+  <Count>-42</Count>
+  <Big>9000000000</Big>
+  <Ratio>1234.5678</Ratio>
+  <Price>1234567.89</Price>
+  <Enabled>True</Enabled>
+  <Letter>ж</Letter>
+  <Timestamp>11/14/2026 8:59:07 PM</Timestamp>
+  <Mode>Second</Mode>
+  <Names>
+    <Item>first</Item>
+    <Item></Item>
+    <Item>with &amp;lt;angle&amp;gt; &amp;amp; ampersand</Item>
+  </Names>
+  <Numbers>
+    <Item>1</Item>
+    <Item>-2</Item>
+    <Item>3</Item>
+  </Numbers>
+  <Scores>
+    <Item>
+      <Key>alice</Key>
+      <Value>10</Value>
+    </Item>
+    <Item>
+      <Key>bob &amp;amp; co</Key>
+      <Value>-5</Value>
+    </Item>
+  </Scores>
+  <Labels>
+    <Item>
+      <Key>1</Key>
+      <Value>one</Value>
+    </Item>
+    <Item>
+      <Key>2</Key>
+      <Value>two&amp;sl;three</Value>
+    </Item>
+  </Labels>
+  <Pair>
+    <Key>answer</Key>
+    <Value>42</Value>
+  </Pair>
+  <Profile>
+    <Name>root</Name>
+    <Age>30</Age>
+    <Weight>70.25</Weight>
+    <Tags>
+      <Item>x</Item>
+      <Item>y</Item>
+    </Tags>
+    <Inner>
+      <Name>inner</Name>
+      <Age>1</Age>
+      <Weight>0.5</Weight>
+    </Inner>
+  </Profile>
+  <Profiles>
+    <Item>
+      <Name>p1</Name>
+      <Age>1</Age>
+      <Weight>1.5</Weight>
+      <Tags />
+    </Item>
+    <Item>
+      <Name>p2</Name>
+      <Age>2</Age>
+      <Weight>-2.75</Weight>
+    </Item>
+  </Profiles>
+  <Factor>0.1</Factor>
+  <Level>200</Level>
+  <Flags>Read, Delete</Flags>
+  <Point>
+    <X>3</X>
+    <Y>-4</Y>
+  </Point>
+  <Matrix>
+    <Item>
+      <Item>1</Item>
+      <Item>2</Item>
+    </Item>
+    <Item />
+    <Item>
+      <Item>3</Item>
+    </Item>
+  </Matrix>
+  <Groups>
+    <Item>
+      <Key>letters</Key>
+      <Value>
+        <Item>a</Item>
+        <Item>b</Item>
+      </Value>
+    </Item>
+    <Item>
+      <Key>empty</Key>
+      <Value />
+    </Item>
+  </Groups>
+  <ProfilesByName>
+    <Item>
+      <Key>first</Key>
+      <Value>
+        <Name>by name</Name>
+        <Age>5</Age>
+        <Weight>5.5</Weight>
+      </Value>
+    </Item>
+  </ProfilesByName>
+  <Pairs>
+    <Item>
+      <Key>one</Key>
+      <Value>1</Value>
+    </Item>
+    <Item>
+      <Key>two</Key>
+      <Value>2</Value>
+    </Item>
+  </Pairs>
+</Settings>
