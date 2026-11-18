@@ -4,10 +4,38 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>DOtrishko.LiteSettings</PackageId>
+    <Title>DOtrishko.LiteSettings</Title>
+    <Version>1.0.0</Version>
+    <Authors>Dmytro Otrishko</Authors>
+    <Description>Lightweight settings library for .NET. Mark properties with [Save] and persist them with SettingsStore&amp;lt;T&amp;gt;. Thread-safe, saves atomically and falls back to defaults if the file is missing or damaged. It has no file format of its own: use LiteSettings.Xml or plug in your own ISettingsSerializer.</Description>
+    <PackageProjectUrl>https://github.com/dmytrootrishko/LiteSettings</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/dmytrootrishko/LiteSettings</RepositoryUrl>
+    <PackageTags>settings;configuration;persistence;user-settings</PackageTags>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
   <ItemGroup>
     <InternalsVisibleTo Include="LiteSettings.Tests" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
